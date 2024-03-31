@@ -1,0 +1,17 @@
+{
+  "name": "自作拡張機能現在の時間",
+  "description": "現在の時間を表示します",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Q",
+        "mac": "Command+Shift+Q"
+      }
+    }
+  }
+}
